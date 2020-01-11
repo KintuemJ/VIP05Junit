@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.test.class12.VIP1905JavaMavenTest.Plus_sumIntTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE! - in com.test.class12.VIP1905JavaMavenTest.Plus_sumIntTest
+testSum[测试Plus_IntSum_均为空值null测试](com.test.class12.VIP1905JavaMavenTest.Plus_sumIntTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: wrong number of arguments
+

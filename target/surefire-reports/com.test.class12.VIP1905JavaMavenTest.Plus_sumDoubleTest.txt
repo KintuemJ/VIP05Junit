@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 1, Skipped: 0, Time elapsed: 0.02 sec <<< FAILURE! - in com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest
+testSum[测试Plus_DoubleSum_左边界-1测试](com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: 数据相加测试 expected:<-2147483648> but was:<-2.147483648E9>
+	at com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest.testSum(Plus_sumDoubleTest.java:64)
+
+testSum[测试Plus_DoubleSum_左边界+0测试](com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: 数据相加测试 expected:<-2147483648> but was:<-2.147483648E9>
+	at com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest.testSum(Plus_sumDoubleTest.java:64)
+
+testSum[测试Plus_DoubleSum_左边界+1测试](com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: 数据相加测试 expected:<-2147483647> but was:<-2.147483647E9>
+	at com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest.testSum(Plus_sumDoubleTest.java:64)
+
+testSum[测试Plus_DoubleSum_正常值-2测试](com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: 数据相加测试 expected:<-2> but was:<-2.0>
+	at com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest.testSum(Plus_sumDoubleTest.java:64)
+
+testSum[测试Plus_DoubleSum_均为值0测试](com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: 数据相加测试 expected:<0> but was:<0.0>
+	at com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest.testSum(Plus_sumDoubleTest.java:64)
+
+testSum[测试Plus_DoubleSum_均为空值null测试](com.test.class12.VIP1905JavaMavenTest.Plus_sumDoubleTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.IllegalArgumentException: wrong number of arguments
+
